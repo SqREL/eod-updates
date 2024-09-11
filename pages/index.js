@@ -33,13 +33,10 @@ export default function Home() {
       <div className={styles.column}>
           <Header title="What have you done today?" />
           <textarea rows="4" cols="60" name="name" onChange = {(event)=> setActions(event.target.value)} />
-          <hr />
           <Header title="If you had any issues -- what are they?" />
           <textarea rows="4" cols="60" name="name" onChange = {(event)=> setIssues(event.target.value)} />
-          <hr />
           <Header title="What is your outcome for today?" />
           <textarea rows="4" cols="60" name="name" onChange = {(event)=> setOutcome(event.target.value)} />
-          <hr />
           <Header title="What are your next steps?" />
           <textarea rows="4" cols="60" name="name" onChange = {(event)=> setNextSteps(event.target.value)} />
       </div>

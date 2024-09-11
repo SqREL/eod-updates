@@ -11,3 +11,23 @@
   height: 3em;
   margin: 5px;
 }
+
+.column {
+  flex: 50%;
+}
+
+.row {
+  padding: 10px;
+  display: flex;
+}
+
+.column textarea {
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+      padding: 10px;
+        max-width: 100%;
+          line-height: 1.5;
+            border-radius: 5px;
+              border: 1px solid #ccc;
+                box-shadow: 1px 1px 1px #999;
+}
